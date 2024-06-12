@@ -1,0 +1,8 @@
+{
+  "name": "@ucr/root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "pnpm recursive run dev"
+  }
+}

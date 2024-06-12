@@ -1,0 +1,23 @@
+{
+  "name": "@ucr/db-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/db-client.ts",
+    "./schema": "./src/db-schema.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "drizzle-orm": "^0.30.1",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.6.0"
+  }
+}

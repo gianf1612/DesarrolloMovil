@@ -1,0 +1,19 @@
+{
+  "name": "@ucr/backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env.dev src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "rimraf": "^5.0.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@ucr/db-client": "workspace:*",
+    "@ucr/trpc": "workspace:*",
+    "@trpc/server": "11.0.0-rc.340"
+  },
+  "type": "module"
+}

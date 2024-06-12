@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170062538360",
+    "project_id": "ucr-mobile-482f5",
+    "storage_bucket": "ucr-mobile-482f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170062538360:android:baddf955aada4932126f8d",
+        "android_client_info": {
+          "package_name": "com.ucr.rnfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGSV9f4RmaMr0dCS-fdgfPGdLx2v0oZeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
