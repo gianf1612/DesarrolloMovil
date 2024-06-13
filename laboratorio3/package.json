@@ -4,5 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "pnpm recursive run dev"
+  },
+  "dependencies": {
+    "expo-secure-store": "^13.0.1"
   }
 }
